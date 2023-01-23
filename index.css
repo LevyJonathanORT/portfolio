@@ -1,0 +1,70 @@
+
+#conteneur {
+    width: 640px;
+    height: auto;
+    margin: 0px auto 0px auto;
+    border: 2px #214857 solid ;
+    border-radius: 5px;
+    position: relative;
+}
+
+#entete {
+    background-color: #214857;
+    color: white;
+    padding: 20px;
+    text-align: left;
+    display: flex;
+    justify-content: center;
+}
+#photoProfil {
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    margin-right: 30px;
+}
+
+#corps {
+    display: flex;
+}
+
+h2 {
+    color: #333;
+    text-align: center
+}
+
+#contenuGauche {
+    background-color: #ffc069;
+    padding: 0px 0px 0px 20px;
+    width: 200px;
+}
+.infos {
+    font-weight: bold;
+    display: block;
+    margin: 25px 0px 2px 0px;
+}
+
+#contenuDroit {
+    background-color: #ffa19c;
+    padding: 5px 20px 20px 0px;
+    width: 460px;
+}
+hr {
+    color: white;
+    border-color: black;
+    width: 350px;
+}
+
+#pied {
+    background-color: #214857;
+    color: #fff;
+    padding-top: 1px;
+    text-align: center;
+}
+#reseaux {
+    display: flex;
+    justify-content: space-around;
+}
+
+.logo {
+    height: 65px;
+}
